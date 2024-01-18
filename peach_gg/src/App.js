@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import PasswordPage from "./components/PasswordPage";
 import MemberMain from "./components/member/MemberMain";
+import TotalDamage from "./components/TotalDamage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<PasswordPage />} />
         <Route path="/main" element={<Main />} />
         <Route path="/membermain" element={<MemberMain />} />
+        <Route path="/totalinfo" element={<TotalDamage />} />
       </Routes>
     </Router>
   );

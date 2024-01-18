@@ -35,11 +35,9 @@ export default function CharacterInfo({ ocid }) {
 
   const keyMapping = {
     character_name: "닉네임",
-    world_name: "서버",
     character_class: "직업",
     character_level: "레벨",
-    character_exp_rate: "퍼센트",
-    character_guild_name: "길드",
+    character_exp_rate: "경험치",
   };
 
   return (
